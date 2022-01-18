@@ -1,0 +1,77 @@
+
+.list{height: 50px;background-color: rgb(51, 51, 51);}
+.list ul{float: right;}
+
+
+.list ul li :hover{color: rgb(217, 255, 0);}
+
+.list a{margin-top: 8px;margin-left: 8px;}
+.header{font-size: 70px;text-align: center;}
+/*-------cards---------*/
+
+.box{margin: 15px;}
+
+
+
+ @media only screen and (max-width:425px){
+body{margin: 0px;background:linear-gradient(#005671,#7dbba4);}
+.header{font-size: 50px;}
+
+.box{margin-left: 20px;}
+.box1{display:inline-block;height: 420px;background-color: rgb(255, 255, 255);
+    width: 280px;border-radius: 15px 15px 15px 15px;
+    background-image: url(avicii.png);background-repeat: no-repeat
+    ;}
+.box1 p{margin-top: 250px;font-size: 20px;text-align: justify;}
+.box1 input{width: 80px;height: 30px;background: transparent;border-radius: 15px;
+}
+.box1 input:hover{background-color: hotpink;}
+.box2 p{margin-top: 250px;font-size: 20px;text-align: justify;}
+.box2{display:inline-block;height: 420px;background-color: rgb(255, 255, 255);
+    width: 280px;border-radius: 15px 15px 15px 15px;
+    background-image: url(images/drum.png);background-repeat: no-repeat
+    ;
+}
+.box3{display:inline-block;height: 420px;background-color: rgb(255, 255, 255);
+    width: 280px;border-radius: 15px 15px 15px 15px;
+    background-image: url(images/emoji.png);background-repeat: no-repeat
+    ;}
+.box3 p{font-size: 20px;text-align: justify;margin-top: 250px;}
+.list ul li{display:none;}
+
+
+.list .menu{float: right;margin-right: 20px;}
+ }
+
+ @media only screen and (min-width: 768px){
+    .list .menu{display: none;
+    margin: 0px 0px 0px 0px;}
+
+    body{margin:0px;background: url(desktop_background6.jpeg);background-repeat: no-repeat;overflow: hidden;background-size: 100%;}
+
+    .main{display: flex;margin: 15px;}
+    .box{margin: 15px;}
+    .box1{display:inline-block;height: 420px;background-color: rgb(255, 255, 255);
+        width: 280px;border-radius: 15px 15px 15px 15px;
+        background-image: url(avicii.png);background-repeat: no-repeat
+        ;}
+    .box1 p{margin-top: 250px;font-size: 20px;text-align: justify;}
+    .box1 input{width: 80px;height: 30px;background: transparent;border-radius: 15px;
+    }
+    .box1 input:hover{background-color: hotpink;}
+    .box2 p{margin-top: 250px;font-size: 20px;text-align: justify;}
+    .box2{display:inline-block;height: 420px;background-color: rgb(255, 255, 255);
+        width: 280px;border-radius: 15px 15px 15px 15px;
+        background-image: url(images/drum.png);background-repeat: no-repeat
+        ;
+    }
+    .box3{height: 420px;width: 280px;background-color: rgb(255, 255, 255);border-radius: 15px 15px 15px 15px;
+        background-image: url(avicii.png);background-repeat: no-repeat;}
+    .box3 p{margin-top: 250px;font-size: 20px;text-align: justify;}
+    
+
+    .list ul li a{text-decoration: none;color:#fff;padding: 5px 20px;font-size: 20px;font-family: Arial
+    }
+
+    .list ul li{display:inline-block;list-style: none;}
+   }
